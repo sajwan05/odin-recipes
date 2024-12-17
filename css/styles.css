@@ -9,29 +9,39 @@ body{
     text-align:center;
     font-family:Arial, Helvetica, sans-serif;
     margin:10px;
-    border:3px solid black;
-    height:99%;
+    /* border:3px solid black; */
     
 }
 
 h1 {
     font-size:50px;
     text-align:center;
+    margin-bottom:50px;
 }
 
 .container {
     text-align:center;
     margin:auto;
     margin:10px;
+    /* border:3px solid brown; */
 }
 
 .container .anc {
-    margin:10px;
+    background:white;
+    text-decoration:solid;
+    text-transform: uppercase;
+    padding:auto;
+    margin:20px;
     display:block;
-    color:blue;
+    color:black;
+}
+.container .anc:hover{
+    background-color:pink;
 }
 
 img {
+    display:block;
     height:auto;
     width:400px;
+    margin:0 auto;
 }
