@@ -5,10 +5,11 @@
 }
 
 body{
-    color: #555;
+    color: #f4f4f4;
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
+    background: linear-gradient(315deg, #0700b8 0%, #00ff88 100%);
     
 }
 
@@ -52,17 +53,19 @@ ul li {
 
 .btn {
     padding:10px;
+    background: linear-gradient(to right bottom, #648880, #293f50);
 }
 
 .btn a {
     text-decoration:none;
-    text-transform:uppercase;
+    font-variant: small-caps;
     color:black;
+    
 }
 
-.btn:hover, .btn a:hover{
+.btn:hover{
     border:none;
-    background:black;
+    background:rgb(184, 159, 19);
     color:#f7f7f7;
 }
 
