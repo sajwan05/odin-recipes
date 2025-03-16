@@ -33,7 +33,7 @@ li a:hover {
     /* list-style: none; */
     text-decoration: none;
     font-variant: small-caps;
-    text-shadow: 3px 5px 2px rgba(0 0 0 / 0.7);
+    text-shadow: 3px 2px 2px rgba(0 0 0 / 0.5);
 
 }
 
@@ -51,6 +51,12 @@ ul li {
     list-style:none;
 }
 
+
+/* 
+
+    BUTTONS
+
+*/
 .btn {
     padding:10px;
     background: linear-gradient(to right bottom, #648880, #293f50);
